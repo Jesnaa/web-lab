@@ -1,0 +1,196 @@
+body{
+}
+
+.logo{
+	width: 50%;
+	padding-top: 40px;
+	float: left;
+}
+.main{
+	width: 50%;
+	float: left;
+	padding-top: 30px;
+}
+.logo-text{
+	color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 0;
+}
+.controls{
+	font-size: 15px;
+	margin-left: 100px;
+	padding: 20px;
+}
+.table{
+        color: black;
+	width: 100px;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;	
+}
+.main-body{
+	width: 100%;
+	color: white;
+}
+.center {
+    margin-left: 450px;
+    width: 500px;
+    height: 250px;                                 
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding: 10px
+}
+.para{
+	color: #100840;
+	margin-left: 220px;
+	font-weight: bold;
+}
+.details{
+	color: #100840;
+	margin-left: 100px;
+	font-weight: bold;
+}
+.size{
+	height: 30px;
+	width: 200px;
+	border-radius: 4px;
+
+}
+.button{
+	margin-left: 200px;
+	color:white;
+	background:  #00111A;
+	border: #100840;
+	height: 30px;
+	width: 100px;
+}
+.button:hover{
+	background: #d2b1a9;
+}
+.signup{
+            
+	color:  #100840;
+	margin-left: 30px;
+	text-decoration: none;
+}
+.text2{
+	color: #100840;
+}
+.center-main{
+    margin-left: 350px;
+    width: 600px;
+    height: 450px;        
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding: 10px
+}
+.signup1{
+	color: #100840;
+	margin-left: 250px;
+
+}
+.detail{
+	color: #100840;
+	margin-left: 100px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+.label-title{
+	color: #100840;
+	margin-left: 150px;
+	font-weight: bold;
+	height: 30px;
+	width: 200px;
+	border-radius: 4px;
+}
+.form-input{
+	height: 20px;
+	width: 200px;
+	border-radius: 4px;
+}
+.btnn{
+	margin-left: 200px;
+	color:white;
+	background: #00111A;
+	border:  #100840;
+	height: 30px;
+	width: 100px;
+}
+.btnn:hover{
+	background: #d2b1a9;
+}
+.data{
+	color: #100840;
+	width: 100px;
+	text-align:left;
+	padding: 5px;
+	
+}
+.main-contact{
+	color:black;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 20px;
+	text-transform: uppercase;
+}
+.main-about{
+	color:black;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 20px;
+	text-transform: uppercase;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(218, 208, 208);
+  font-family: arial;
+  
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+/*viw reg*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    
+    margin-left:20%;
+    width: 900px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>sample</title>
+</head>
+<body>
+	<label>Enter a string:</label>
+	<input type="text" name="str" id="str1"><br><br>
+	<label>Enter number</label>
+	<input type="text" name="text2" id="idno1"><br><br>
+	<label>enter power</label>
+    <input type="text" name="text2" id="idno2">
+	<script language="javascript" type="text/javascript">
+		function add()
+		{
+			var a,b,c,n,m,i,s,sl,sli;
+			s=(document.getElementById("str1").value);
+			sl=s.length;
+			sli=s.slice(5,11);
+			a=(document.getElementById("idno1").value);
+			b=(document.getElementById("idno2").value);
+			c=Math.pow(a,b);
+			n=Math.sqrt(a);
+			m=Math.ceil(a);
+			i=Math.floor(a);
+			(document.getElementById("strlen").value)=sl;
+			(document.getElementById("strsli").value)=sli;
+			(document.getElementById("ans").value)=c;
+			(document.getElementById("sqr").value)=n;
+			(document.getElementById("ceil").value)=m;
+			(document.getElementById("floor").value)=i;
+             }
+	</script>
+	<br><br>
+	<button onclick="add()">Get Result</button><br><br>
+	<label>Length of  the String :</label><input type="text" id="strlen"><br><br>
+	<label>Slice String :</label><input type="text" id="strsli"><br><br>
+	<label><b><u>Power of a number</u></b></label><br>
+	<input type="text" id="ans"><br><br>
+	<laber><u><b>Squareroot of the number</b></u></label><br>
+	<input type="text" id="sqr"><br><br>
+	<laber><u><b>Ceil of the number</b></u></label><br>
+	<input type="text" id="ceil">
+	<br><br><laber><u><b>Floor of the number</b></u></label><br>
+	<input type="text" id="floor">
+</body>
+</html>
+
+

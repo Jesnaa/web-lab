@@ -1,0 +1,15 @@
+body {
+    background-color:pink;
+}
+.m {
+    text-align:center;   
+}
+.n {
+    color:white;
+    font-size:50px;
+    font-weight:bold;
+}
+#o {
+    font-style:bold;
+    font-size:20px;
+}
